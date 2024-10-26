@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Andrade Gás - Entrega de Gás</title>
+</head>
+<body>
+    <header>
+        <h1>Andrade Gás</h1>
+        <p>Sua entrega de gás rápida e segura</p>
+    </header>
+    <main>
+        <section id="servicos">
+            <h2>Nossos Produtos</h2>
+            <div class="card-container">
+                <div class="card">
+                    <h3>Gás de Cozinha (13kg)</h3>
+                    <p>O gás de cozinha ideal para sua casa.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Gostaria de pedir um botijão de 13kg.')">Pedir via WhatsApp</button>
+                </div>
+                <div class="card">
+                    <h3>Gás Industrial (45kg)</h3>
+                    <p>Perfeito para grandes demandas.</p>
+                    <button class="btn-whatsapp" onclick="contatoWhatsApp('Gostaria de pedir um botijão de 45kg.')">Pedir via WhatsApp</button>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Entre em contato conosco!</h2>
+            <button id="whatsapp-btn" onclick="contatoWhatsApp('Olá, preciso de informações sobre o gás.')">Falar pelo WhatsApp</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
